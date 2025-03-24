@@ -1,0 +1,34 @@
+19200AFONSO João José               5,0
+20730Marcelo Gonçalves Pedro Junior10,0
+21258Nycolle Rodrigues De Oliveira 10,0
+23117Alice Lopes dos Santos        10,0
+23120Beatriz Alves Batista         10,0
+23121Beatriz Juliato Coutinho      10,0 
+23123Benneth Urich Ramos Damasio   10,0
+23123Bruno Borges de Oliveira      10,0
+23124Clara Andrade Santanna Santos 10,0
+23125Eduarda Graziele De Paiva     10,0
+23126Elias Santana Dos Santos      10,0
+23127Eloisa Paixão De Oliveira     10,0
+23156Éric Carvalho Figueira        10,0
+23129Felipe Luvizotto De Castro    10,0
+23131Gabriel Barbetti De Grabalos  10,0
+23132Gabriel Leonardo Q Ruiz       10,0
+23134Gustavo Pereira Araujo        10,0
+23136Hugo Gomes Soares             10,0
+23138João Pedro Cassiano De Brito  10,0
+23139Júlia Enriquetto De Brito     10,0
+23140Laura Nakamura Mayo Lacorte   10,0
+23141Leticia Fochi Juliani         10,0
+23142Marcos Godinho Filho          10,0
+23143Maria Eduarda Jesus Padovan   10,0
+23144Mickéias Gomes Araújo         10,0
+23145Miguel De Castro Chaga Silva  10,0
+23146Otavio Lima Bueno             10,0
+23147Pedro Henrique Batista Nunes  10,0
+23148Pietro Gutiérrez G Urrutia    10,0 
+23149Saulo Nathan da Silva         10,0 
+23152Victor Hugo Barbosa Dos Santos10,0 
+23153Virgínia Da Silva             10,0
+23154Vítor Silveira de Lucena      10,0
+23155Yasmin Tavares Noberto        10,0

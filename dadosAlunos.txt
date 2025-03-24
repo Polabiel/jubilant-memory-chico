@@ -1,0 +1,35 @@
+12345FRANCISCO DA FONSECA RODRIGUES 0,0
+20735Marcelo Gonçalves Pedro Junior10,0
+21258Nycolle Rodrigues De Oliveira 10,0
+21262Vitória Campos De Toledo      10,0 
+22117Alice Lopes dos Santos        10,0
+22120Beatriz Alves Batista         10,0
+22121Beatriz Juliato Coutinho      10,0 
+22122Benneth Urich Ramos Damasio   10,0
+22123Bruno Borges de Oliveira      10,0
+22124Clara Andrade Santanna Santos 10,0
+22125Eduarda Graziele De Paiva     10,0
+22126Elias Santana Dos Santos      10,0
+22127Eloisa Paixão De Oliveira     10,0
+22156Éric Carvalho Figueira        10,0
+22129Felipe Luvizotto De Castro    10,0
+22131Gabriel Barbetti De Grabalos  10,0
+22132Gabriel Leonardo Q Ruiz       10,0
+22134Gustavo Pereira Araujo        10,0
+22136Hugo Gomes Soares             10,0
+22138João Pedro Cassiano De Brito  10,0
+22139Júlia Enriquetto De Brito     10,0
+22140Laura Nakamura Mayo Lacorte   10,0
+22141Leticia Fochi Juliani         10,0
+22142Marcos Godinho Filho          10,0
+22143Maria Eduarda Jesus Padovan   10,0
+22144Mickéias Gomes Araújo         10,0
+22145Miguel De Castro Chaga Silva  10,0
+22146Otavio Lima Bueno             10,0
+22147Pedro Henrique Batista Nunes  10,0
+22148Pietro Gutiérrez G Urrutia    10,0 
+22149Saulo Nathan da Silva         10,0 
+22152Victor Hugo Barbosa Dos Santos10,0 
+22153Virgínia Da Silva             10,0
+22154Vítor Silveira de Lucena      10,0
+22155Yasmin Tavares Noberto        10,0

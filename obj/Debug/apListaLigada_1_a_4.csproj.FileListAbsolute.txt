@@ -1,0 +1,10 @@
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\bin\Debug\apListaLigada_1_a_4.exe.config
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\bin\Debug\apListaLigada_1_a_4.exe
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\bin\Debug\apListaLigada_1_a_4.pdb
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.csproj.AssemblyReference.cache
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.FrmListaLigada.resources
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.Properties.Resources.resources
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.csproj.GenerateResource.cache
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.csproj.CoreCompileInputs.cache
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.exe
+P:\59-DesenvSistemas\2025\2o Ano\TI221-Estruturas de Dados\correcoes\Listas Ligadas\apListaLigada_1_a_4\obj\Debug\apListaLigada_1_a_4.pdb
