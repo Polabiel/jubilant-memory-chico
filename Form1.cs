@@ -35,7 +35,7 @@ namespace apListaLigada_1_a_4
             {
                 var novoAluno = new Aluno(txtRA.Text, txtNome.Text,
                                             (double)udNota.Value);
-                lista1.InserirAposFim(novoAluno);
+                lista1.InserirEmOrdem(novoAluno);
                 lista1.Listar(lsbUm);
             }
         }
@@ -50,6 +50,7 @@ namespace apListaLigada_1_a_4
                 while (!arquivo.EndOfStream)
                 {
                     var linhaLida = arquivo.ReadLine();
+                    string[] palavrasLidas = linhaLida.Split(' ');
                     var novoAluno = new Aluno(linhaLida);
                     qualLista.InserirAposFim(novoAluno);
                 }
@@ -59,7 +60,7 @@ namespace apListaLigada_1_a_4
         }
         private void btnLerArquivo1_Click(object sender, EventArgs e)
         {
-            FazerLeitura(ref lista1, lsbUm);
+            FazerLeitura(ref lista1, lsbUm);   
         }
 
         private void btnLerArquivo2_Click(object sender, EventArgs e)
@@ -73,13 +74,72 @@ namespace apListaLigada_1_a_4
             lista3.Listar(lsbTres);
         }
 
-        private void btnExercicio1_Click(object sender, EventArgs e)
+        private void btnExercicio4_Click(object sender, EventArgs e)
         {
-            if (lista1 != null)
+            lista1.Listar(lsbUm);
+            lista1.Inverter();
+            lista1.Listar(lsbDois);
+        }
+
+        private void btnExercicio2_Click(object sender, EventArgs e)
+        {
+            lista1.Listar(lsbUm);
+            ListaSimples<Aluno> pares = null, impares = null;
+            lista1.Separar(ref pares, ref impares);
+            pares.Listar(lsbDois);
+            impares.Listar(lsbTres);
+        }
+
+        private void btnProcurar_Click(object sender, EventArgs e)
+        {
+            if (txtRA.Text != "")
             {
-                lbQuantosNos.Text = "Quantos nós: " + lista1.ContarNos();
+                var alunoAProcurar = new Aluno(txtRA.Text, "-", 0);
+                if (lista1.Existe(alunoAProcurar)) // ajusta o ponteiro atual da lista
+                {
+                    var alunoEncontrado = lista1.Atual.Info;
+                    txtNome.Text = alunoEncontrado.Nome;
+                    udNota.Value = Convert.ToDecimal(alunoEncontrado.Nota);
+                }
+                else
+                    MessageBox.Show("RA não encontrado!");
             }
         }
+
+    private void btnExcluir_Click(object sender, EventArgs e)
+    {
+      if (txtRA.Text != "" && lista1 != null)
+      {
+        var alunoAProcurar = new Aluno(txtRA.Text, "-", 0);
+        if (lista1.Remover(alunoAProcurar))
+          MessageBox.Show("Aluno removido!");
+        else
+          MessageBox.Show("RA não encontrado!");
+      }
+    }
+
+    // executa quando o usuário finaliza o programa
+    private void FrmListaLigada_FormClosing(object sender, FormClosingEventArgs e)
+    {
+      if (dlgSalvar.ShowDialog() == DialogResult.OK)
+      {
+        lista1.GravarDados(dlgSalvar.FileName);
+      }
+    }
+
+    private void btnOrdenar_Click(object sender, EventArgs e)
+    {
+      lista1.Ordenar();
+      lista1.Listar(lsbUm);
+    }
+
+    private void btnExercicio1_Click(object sender, EventArgs e)
+    {
+        if (lista1 != null)
+        {
+            lbQuantosNos.Text = "Quantos nós: " + lista1.ContarNos();
+        }
+    }
 
  
     }

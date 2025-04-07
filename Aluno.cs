@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace apListaLigada_1_a_4
 {
-    public class Aluno : IComparable<Aluno>
+    public class Aluno : IComparable<Aluno>, ICriterioDeSeparacao,
+                         IRegistro       
     {
         // atributos da classe Aluno
         string ra;
@@ -35,7 +36,7 @@ namespace apListaLigada_1_a_4
         {
             Ra = linhaDeDados.Substring(iniRa, tamanhoRa);
             Nome = linhaDeDados.Substring(iniNome, tamanhoNome);
-            Nota = double.Parse(linhaDeDados.Substring(iniNota, tamanhoNota));
+            Nota = double.Parse(linhaDeDados.Substring(iniNota));
         }
         public Aluno(string ra, string nome, double nota)
         {
@@ -89,9 +90,20 @@ namespace apListaLigada_1_a_4
             return this.Ra.CompareTo(outro.Ra);
         }
 
+        public string FormatoDeArquivo()    // dados em formato de gravação e leitura
+        {
+          return Ra + Nome + Nota;
+        }
+
         public override string ToString()
         {
             return Ra+" "+Nome+" "+Nota;
+        }
+
+        public bool DeveSeparar()
+        {
+            int raInteiro = Convert.ToInt32(ra);
+            return raInteiro % 2 == 0;      // é par
         }
     }
 }

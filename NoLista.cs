@@ -1,6 +1,6 @@
 using System;
 
-public class NoLista<Dado> where Dado : IComparable<Dado>
+public class NoLista<Dado> where Dado : IComparable<Dado>, IRegistro
 {
     Dado info;
     NoLista<Dado> prox;
